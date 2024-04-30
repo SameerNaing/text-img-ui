@@ -1,0 +1,25 @@
+.promptContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promptInput {
+  width: 94%;
+  border-radius: 8px;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgb(204, 204, 204);
+  font-family: inherit;
+  padding-left: 12px;
+}
+
+.sendBtn {
+  width: 54px;
+  border-radius: 8px;
+  outline: none;
+  background-color: red;
+  border: none;
+
+  height: 40px;
+}

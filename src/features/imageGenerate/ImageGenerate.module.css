@@ -1,0 +1,29 @@
+.layout {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+}
+
+.headerText {
+  margin: 20px 0px;
+  text-align: center;
+  font-weight: 300;
+  color: #5f5959;
+  font-size: 2.2em;
+}
+
+@media screen and (max-width: 1030px) {
+  .imageDisplay {
+    width: 80% !important;
+  }
+}
+/* 
+@media screen and (max-width: 600px) {
+  .imageDisplay {
+    width: 90% !important;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  box-shadow: x;
+} */

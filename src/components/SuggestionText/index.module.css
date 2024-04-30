@@ -1,0 +1,23 @@
+.suggestionsContainer {
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  column-gap: 5px;
+  min-height: 50px;
+}
+
+.suggestionText {
+  padding: 5px;
+  font-size: 0.84em;
+
+  color: red;
+  border: 1px solid red;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+
+.suggestionText:hover {
+  font-weight: 700;
+  border-width: 2px;
+}
